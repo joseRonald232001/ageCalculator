@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+
+
+/*------- GLOBAL STYLES  --------*/
+
+:root {
+  /*### Primary*/
+  --color-Purple: hsl(259, 100%, 65%);
+  --color-Lightred: hsl(0, 100%, 67%);
+
+  /*### Neutral*/
+  --color-White: hsl(0, 0%, 100%);
+  --color-Off-white: hsl(0, 0%, 94%);
+  --color-Light-grey: hsl(0, 0%, 86%);
+  --color-Smokey-grey: hsl(0, 1%, 44%);
+  --color-Off-black: hsl(0, 0%, 8%);
+}
+
+/*-----STYLES RESET -------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: var(--color-Off-white);
+  height: 100vh;
+}
+
+
+
+.data_container {
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 15px 15px 150px 15px;
+  position: relative;
+}
+
+.data_container form {
+  height: 150px;
+}
+.data_container .cart_date {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message_error {
+  color: var(--color-Lightred);
+  font-weight: 100;
+  font-size: small;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  font-family: sans-serif;
+  display: none;
+}
+
+#not_content_empty {
+  color: var(--color-Lightred);
+  font-weight: 100;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  margin-bottom: 10px;
+  display: none;
+}
+
+.data_container form {
+  display: flex;
+}
+
+.title_date {
+  color: var(--color-Smokey-grey);
+}
+
+.data_container .cart_date input {
+  border-radius: 7px;
+  color: var(--color-Off-black);
+  font-weight: 700;
+  height: 45px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.message_error {
+  color: var(--color-Lightred);
+  font-weight: 100;
+  font-size: small;
+  font-family: monospace;
+  display: none;
+}
+
+.button {
+  position: absolute;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-Off-black);
+}
+.button img {
+  width: 60%;
+}
+
+.button:hover {
+  background: var(--color-Purple);
+}
+
+hr {
+  border-width: 0.1px;
+  border-color: var(--color-Light-grey);
+}
+
+.container_userLifeDate span {
+  color: var(--color-Purple);
+  margin-right: 7px;
+}
+
+.container_userLifeDate {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 50px;
+  padding: 10px;
+  font-size: small;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

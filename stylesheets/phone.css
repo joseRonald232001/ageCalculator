@@ -1,0 +1,40 @@
+
+/*------- PHONE STYLES  --------*/
+
+.data_container {
+  width: 90%;
+  padding: 20px;
+}
+.data_container form {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.data_container .cart_date {
+  margin-left: 10px;
+  width: 30%;
+}
+
+.title_date {
+  font-size: 5px;
+  color: var(--color-Smokey-grey);
+}
+
+.data_container .cart_date input {
+  font-size: 1rem;
+}
+
+.button {
+  right: 40%;
+  top: 35%;
+  width: 60px;
+  height: 60px;
+}
+.button:hover {
+  background: var(--color-Purple);
+}
+
+.container_userLifeDate {
+  margin-top: 30px;
+  font-size: 2.5rem;
+}

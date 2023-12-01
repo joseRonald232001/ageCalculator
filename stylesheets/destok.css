@@ -1,0 +1,32 @@
+
+/*------- DESTOK STYLES  --------*/
+
+.data_container {
+  width: min(90%, 900px);
+  padding: 40px;
+}
+
+.data_container .cart_date {
+  margin-left: 20px;
+  width: min(100%, 200px);
+}
+
+.title_date {
+  letter-spacing: 5px;
+}
+
+.data_container .cart_date input {
+  font-size: 1.2rem;
+}
+
+.button {
+  right: 40px;
+  top: 28%;
+  width: 70px;
+  height: 70px;
+}
+
+.container_userLifeDate {
+  margin-top: 50px;
+  font-size: 3rem;
+}

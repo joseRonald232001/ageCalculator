@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="stylesheets/index.css" />
+    <link rel="stylesheet" href="stylesheets/destok.css" media="screen and (min-width:800px)"/>
+    <link rel="stylesheet" href="stylesheets/phone.css" media="screen and (max-width:800px)"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+
+  <body>
+
+    <main>
+      <section class="data_container">
+
+        <form onsubmit="requestValuesForm(event)">
+          
+          <div class="cart_date">
+            <label class="title_date"    for="input_day">DAY</label>
+            <input id="input_day" class="input_value" type="text" placeholder="DD" />
+            <label id="empty_day" class="message_error"   for="">This field is required</label>
+            <label id="invalid_day"  class="message_error"  for="">Must be a valid day</label>
+          </div>
+
+          <div class="cart_date">
+            <label class="title_date"  for="input_month">MONTH</label>
+            <input id="input_month"  class="input_value" type="text" placeholder="MM" />
+            <label id="empty_month"  class="message_error"   for="">This field is required</label>
+            <label id="invalid_month"  class="message_error"   for="">Must be a valid month</label>
+          </div>
+          
+          <div class="cart_date">
+            <label class="title_date"  for="input_year">YEAR</label>
+            <input id="input_year" class="input_value"  type="text" placeholder="YYYY" />
+            <label id="empty_year"  class="message_error"   for="">This field is required</label>
+            <label id="invalid_year"  class="message_error"  for="">Must be in the past</label>
+            <button class="button"><img src="assets/images/icon-arrow.svg" alt="arrow img" /></button>
+          </div>
+        </form>
+
+        <hr />
+  
+      <section class="container_userLifeDate">
+          <p><span id="years_of_life">--</span>years</p>
+          <p><span id="months_of_life">--</span>months</p>
+          <p><span id="days_of_life" >--</span>days</p>
+        </section>
+      </section>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">jose Ronald</a>.
+      </div>
+    </main>
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
